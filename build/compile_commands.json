@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Sort",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/Sort.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Sort.dir\\core\\test.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Sort\\core\\test.cpp",
+  "file": "D:/study/cpp/notebook/Util/Sort/core/test.cpp",
+  "output": "Sort/CMakeFiles/Sort.dir/core/test.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Design",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/Design.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Design.dir\\core\\not.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Design\\core\\not.cpp",
+  "file": "D:/study/cpp/notebook/Util/Design/core/not.cpp",
+  "output": "Design/CMakeFiles/Design.dir/core/not.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Log",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/text_log.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\text_log.dir\\core\\main.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Log\\core\\main.cpp",
+  "file": "D:/study/cpp/notebook/Util/Log/core/main.cpp",
+  "output": "Log/CMakeFiles/text_log.dir/core/main.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Thread",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/text_thread.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\text_thread.dir\\core\\text.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Thread\\core\\text.cpp",
+  "file": "D:/study/cpp/notebook/Util/Thread/core/text.cpp",
+  "output": "Thread/CMakeFiles/text_thread.dir/core/text.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/TimeStamp",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/TimeStamp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TimeStamp.dir\\core\\Timestamp.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\TimeStamp\\core\\Timestamp.cpp",
+  "file": "D:/study/cpp/notebook/Util/TimeStamp/core/Timestamp.cpp",
+  "output": "TimeStamp/CMakeFiles/TimeStamp.dir/core/Timestamp.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Timer",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/Timer.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Timer.dir\\core\\Timer.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Timer\\core\\Timer.cpp",
+  "file": "D:/study/cpp/notebook/Util/Timer/core/Timer.cpp",
+  "output": "Timer/CMakeFiles/Timer.dir/core/Timer.cpp.obj"
+},
+{
+  "directory": "D:/study/cpp/notebook/Util/build/Memory",
+  "command": "E:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/Memory.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Memory.dir\\core\\MEmoryManger.cpp.obj -c D:\\study\\cpp\\notebook\\Util\\Memory\\core\\MEmoryManger.cpp",
+  "file": "D:/study/cpp/notebook/Util/Memory/core/MEmoryManger.cpp",
+  "output": "Memory/CMakeFiles/Memory.dir/core/MEmoryManger.cpp.obj"
+}
+]

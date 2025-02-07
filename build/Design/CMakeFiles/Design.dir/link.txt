@@ -1,0 +1,2 @@
+E:\msys2\mingw64\bin\ar.exe qc libDesign.a CMakeFiles/Design.dir/core/not.cpp.obj
+E:\msys2\mingw64\bin\ranlib.exe libDesign.a

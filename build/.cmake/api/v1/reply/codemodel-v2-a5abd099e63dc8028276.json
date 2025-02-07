@@ -1,0 +1,940 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "Sort",
+					"jsonFile" : "directory-Sort-Debug-22a531c4fc41df4c1fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sort",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Design",
+					"jsonFile" : "directory-Design-Debug-3380ea87f585a2699b17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Design",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Log",
+					"jsonFile" : "directory-Log-Debug-65743027bca22074b98c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Log",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Thread",
+					"jsonFile" : "directory-Thread-Debug-e06d7fd5eea37130a931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Thread",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "TimeStamp",
+					"jsonFile" : "directory-TimeStamp-Debug-8b5f6cedfbef5f297294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TimeStamp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Timer",
+					"jsonFile" : "directory-Timer-Debug-1cb7811f6aa9c3e37347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Timer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Memory",
+					"jsonFile" : "directory-Memory-Debug-0942538d00fdbc4c6d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Memory",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "UTIL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-49deae954248d1fee815.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Design::@213c845f330fbcb83c87",
+					"jsonFile" : "target-Design-Debug-cea7e4a9f43ada63c046.json",
+					"name" : "Design",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Memory::@ba0746085020959ff5a5",
+					"jsonFile" : "target-Memory-Debug-30503c8db27e92608d26.json",
+					"name" : "Memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Sort::@a56d8bdd389eaf1ef8c4",
+					"jsonFile" : "target-Sort-Debug-1bd77d9f7b17377888ee.json",
+					"name" : "Sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TimeStamp::@0e51ca98a0614006c609",
+					"jsonFile" : "target-TimeStamp-Debug-b89f6a743079e646033e.json",
+					"name" : "TimeStamp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Timer::@c0ec749ccf2d31a4281f",
+					"jsonFile" : "target-Timer-Debug-4cb885953084c0802161.json",
+					"name" : "Timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-d5bc78326f493298594a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "text_log::@ff0d9bc7e1aa2b6d9e83",
+					"jsonFile" : "target-text_log-Debug-b12b5d95168f57f9f648.json",
+					"name" : "text_log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "text_thread::@d653cdf9f3640b15a7d7",
+					"jsonFile" : "target-text_thread-Debug-ac72dbcfb98c35a607bf.json",
+					"name" : "text_thread",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "Sort",
+					"jsonFile" : "directory-Sort-Release-22a531c4fc41df4c1fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sort",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Design",
+					"jsonFile" : "directory-Design-Release-3380ea87f585a2699b17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Design",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Log",
+					"jsonFile" : "directory-Log-Release-65743027bca22074b98c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Log",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Thread",
+					"jsonFile" : "directory-Thread-Release-e06d7fd5eea37130a931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Thread",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "TimeStamp",
+					"jsonFile" : "directory-TimeStamp-Release-8b5f6cedfbef5f297294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TimeStamp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Timer",
+					"jsonFile" : "directory-Timer-Release-1cb7811f6aa9c3e37347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Timer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Memory",
+					"jsonFile" : "directory-Memory-Release-0942538d00fdbc4c6d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Memory",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "UTIL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-49deae954248d1fee815.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Design::@213c845f330fbcb83c87",
+					"jsonFile" : "target-Design-Release-17058df6bfcf6093a578.json",
+					"name" : "Design",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Memory::@ba0746085020959ff5a5",
+					"jsonFile" : "target-Memory-Release-68f8104e8293b4ce0556.json",
+					"name" : "Memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Sort::@a56d8bdd389eaf1ef8c4",
+					"jsonFile" : "target-Sort-Release-72134654a564f39e7cfd.json",
+					"name" : "Sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TimeStamp::@0e51ca98a0614006c609",
+					"jsonFile" : "target-TimeStamp-Release-026add1ff8f897853221.json",
+					"name" : "TimeStamp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Timer::@c0ec749ccf2d31a4281f",
+					"jsonFile" : "target-Timer-Release-0b355875a621d784a88b.json",
+					"name" : "Timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-d5bc78326f493298594a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "text_log::@ff0d9bc7e1aa2b6d9e83",
+					"jsonFile" : "target-text_log-Release-0414e88a03b0091c8daf.json",
+					"name" : "text_log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "text_thread::@d653cdf9f3640b15a7d7",
+					"jsonFile" : "target-text_thread-Release-c9fcfc2ba04378fa6f2d.json",
+					"name" : "text_thread",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "Sort",
+					"jsonFile" : "directory-Sort-MinSizeRel-22a531c4fc41df4c1fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sort",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Design",
+					"jsonFile" : "directory-Design-MinSizeRel-3380ea87f585a2699b17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Design",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Log",
+					"jsonFile" : "directory-Log-MinSizeRel-65743027bca22074b98c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Log",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Thread",
+					"jsonFile" : "directory-Thread-MinSizeRel-e06d7fd5eea37130a931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Thread",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "TimeStamp",
+					"jsonFile" : "directory-TimeStamp-MinSizeRel-8b5f6cedfbef5f297294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TimeStamp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Timer",
+					"jsonFile" : "directory-Timer-MinSizeRel-1cb7811f6aa9c3e37347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Timer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Memory",
+					"jsonFile" : "directory-Memory-MinSizeRel-0942538d00fdbc4c6d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Memory",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "UTIL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-49deae954248d1fee815.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Design::@213c845f330fbcb83c87",
+					"jsonFile" : "target-Design-MinSizeRel-d7bba9ce51e51621ea18.json",
+					"name" : "Design",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Memory::@ba0746085020959ff5a5",
+					"jsonFile" : "target-Memory-MinSizeRel-7b98e6291744d791e5ab.json",
+					"name" : "Memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Sort::@a56d8bdd389eaf1ef8c4",
+					"jsonFile" : "target-Sort-MinSizeRel-a4ddd20428075d96f47d.json",
+					"name" : "Sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TimeStamp::@0e51ca98a0614006c609",
+					"jsonFile" : "target-TimeStamp-MinSizeRel-71834bef7b7dd0280be2.json",
+					"name" : "TimeStamp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Timer::@c0ec749ccf2d31a4281f",
+					"jsonFile" : "target-Timer-MinSizeRel-393e6e262951d23468b4.json",
+					"name" : "Timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d5bc78326f493298594a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "text_log::@ff0d9bc7e1aa2b6d9e83",
+					"jsonFile" : "target-text_log-MinSizeRel-7a0414e437a4a583616c.json",
+					"name" : "text_log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "text_thread::@d653cdf9f3640b15a7d7",
+					"jsonFile" : "target-text_thread-MinSizeRel-85683129d1da1ab769a7.json",
+					"name" : "text_thread",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						6
+					]
+				},
+				{
+					"build" : "Sort",
+					"jsonFile" : "directory-Sort-RelWithDebInfo-22a531c4fc41df4c1fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sort",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Design",
+					"jsonFile" : "directory-Design-RelWithDebInfo-3380ea87f585a2699b17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Design",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Log",
+					"jsonFile" : "directory-Log-RelWithDebInfo-65743027bca22074b98c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Log",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Thread",
+					"jsonFile" : "directory-Thread-RelWithDebInfo-e06d7fd5eea37130a931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Thread",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "TimeStamp",
+					"jsonFile" : "directory-TimeStamp-RelWithDebInfo-8b5f6cedfbef5f297294.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TimeStamp",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Timer",
+					"jsonFile" : "directory-Timer-RelWithDebInfo-1cb7811f6aa9c3e37347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Timer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Memory",
+					"jsonFile" : "directory-Memory-RelWithDebInfo-0942538d00fdbc4c6d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Memory",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "UTIL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-49deae954248d1fee815.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Design::@213c845f330fbcb83c87",
+					"jsonFile" : "target-Design-RelWithDebInfo-88d28d45022273b29792.json",
+					"name" : "Design",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Memory::@ba0746085020959ff5a5",
+					"jsonFile" : "target-Memory-RelWithDebInfo-8caf4f61d5838a10e2d0.json",
+					"name" : "Memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Sort::@a56d8bdd389eaf1ef8c4",
+					"jsonFile" : "target-Sort-RelWithDebInfo-dab2808763948e5b43c7.json",
+					"name" : "Sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TimeStamp::@0e51ca98a0614006c609",
+					"jsonFile" : "target-TimeStamp-RelWithDebInfo-c583f09f7780249b032a.json",
+					"name" : "TimeStamp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Timer::@c0ec749ccf2d31a4281f",
+					"jsonFile" : "target-Timer-RelWithDebInfo-24e6d819b31459b0e841.json",
+					"name" : "Timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d5bc78326f493298594a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "text_log::@ff0d9bc7e1aa2b6d9e83",
+					"jsonFile" : "target-text_log-RelWithDebInfo-96061afabe3db2c04a62.json",
+					"name" : "text_log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "text_thread::@d653cdf9f3640b15a7d7",
+					"jsonFile" : "target-text_thread-RelWithDebInfo-782de4db4f10f7b3ade9.json",
+					"name" : "text_thread",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/study/cpp/notebook/Util/build",
+		"source" : "D:/study/cpp/notebook/Util"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

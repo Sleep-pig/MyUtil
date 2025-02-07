@@ -1,0 +1,9 @@
+D:/study/cpp/notebook/Util/build/CMakeFiles/ALL_BUILD.dir
+D:/study/cpp/notebook/Util/build/CMakeFiles/ZERO_CHECK.dir
+D:/study/cpp/notebook/Util/build/Sort/CMakeFiles/Sort.dir
+D:/study/cpp/notebook/Util/build/Design/CMakeFiles/Design.dir
+D:/study/cpp/notebook/Util/build/Log/CMakeFiles/text_log.dir
+D:/study/cpp/notebook/Util/build/Thread/CMakeFiles/text_thread.dir
+D:/study/cpp/notebook/Util/build/TimeStamp/CMakeFiles/TimeStamp.dir
+D:/study/cpp/notebook/Util/build/Timer/CMakeFiles/Timer.dir
+D:/study/cpp/notebook/Util/build/Memory/CMakeFiles/Memory.dir

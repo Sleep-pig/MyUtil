@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\text_thread.dir/objects.a
+E:\msys2\mingw64\bin\ar.exe qc CMakeFiles\text_thread.dir/objects.a @CMakeFiles\text_thread.dir\objects1.rsp
+E:\msys2\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\text_thread.dir/objects.a -Wl,--no-whole-archive -o text_thread.exe -Wl,--out-implib,libtext_thread.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\text_thread.dir\linkLibs.rsp
