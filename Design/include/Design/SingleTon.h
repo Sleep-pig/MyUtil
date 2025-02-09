@@ -2,6 +2,7 @@
 #define __SINGLETON__H
 
 #include <memory>
+#include <mutex>
 namespace pjie {
 
 template <typename T>
@@ -16,7 +17,10 @@ protected:
 public:
     static std::shared_ptr<T>& GetInstance()
     {
-        _instance = std::shared_ptr<T>(new T);
+        static std::once_flag _once;   //保证线程安全
+        std::call_once(_once, [&]() {
+            _instance = std::shared_ptr<T>(new T);
+        });
         return _instance;
     }
     ~Singleton(){}
@@ -24,7 +28,7 @@ public:
 
 
 template <typename T>
-std::shared_ptr<T> Singleton<T>::_instance = nullptr;
+std::shared_ptr<T> Singleton<T>::_instance = nullptr;  //懒汉式
 
 }
 

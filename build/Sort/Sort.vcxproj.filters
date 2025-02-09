@@ -9,6 +9,21 @@
     <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\bubbleSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\heapSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\insertSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\qSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\selectSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\shellSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\study\cpp\notebook\Util\Sort\CMakeLists.txt" />

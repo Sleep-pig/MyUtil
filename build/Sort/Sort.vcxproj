@@ -315,6 +315,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="D:\study\cpp\notebook\Util\Sort\core\test.cpp" />
     <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\bubbleSort.h" />
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\heapSort.h" />
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\insertSort.h" />
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\qSort.h" />
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\selectSort.h" />
+    <ClInclude Include="D:\study\cpp\notebook\Util\Sort\include\Sort\shellSort.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\study\cpp\notebook\Util\build\ZERO_CHECK.vcxproj">

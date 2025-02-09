@@ -6,6 +6,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Design\include\Design\Adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Design\include\Design\Builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Design\include\Design\Decorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\study\cpp\notebook\Util\Design\include\Design\Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="D:\study\cpp\notebook\Util\Design\include\Design\SingleTon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
