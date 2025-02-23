@@ -10,8 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
 
-# add_subdirectory(Sort)
-add_subdirectory(Design)
+add_subdirectory(Sort)
+# add_subdirectory(Design)
 # add_subdirectory(Log)
 # add_subdirectory(Thread)
 # add_subdirectory(TimeStamp)

@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "Design",
-		"source" : "Design"
+		"build" : "Sort",
+		"source" : "Sort"
 	}
 }

@@ -141,7 +141,7 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "Design/CMakeLists.txt"
+			"path" : "Sort/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

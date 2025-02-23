@@ -1,3 +1,4 @@
+#include <iostream>
 #include <utility>
 template <typename T>
 
@@ -29,8 +30,17 @@ void heapSort(T a[], int len)
         max_heap(a, i, len);
     }
 
+    for (int i = 0; i < len; i++) {
+        std::cout << a[i] << " ";
+    }
+    std::cout << std::endl;
+
     for (int i = len - 1; i > 0; i--) {
         std::swap(a[0], a[i]);
+        for (int i = 0; i < len; i++) {
+            std::cout << a[i] << " ";
+        }
+        std::cout << std::endl;
         max_heap(a, 0, i);
     }
 }

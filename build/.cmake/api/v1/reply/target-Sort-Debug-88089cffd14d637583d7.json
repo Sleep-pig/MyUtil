@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Design/MinSizeRel/Design.exe"
+			"path" : "Sort/Debug/Sort.exe"
 		},
 		{
-			"path" : "Design/MinSizeRel/Design.pdb"
+			"path" : "Sort/Debug/Sort.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"Design/CMakeLists.txt"
+			"Sort/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 4,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 5,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/study/cpp/notebook/Util/Design/include"
+					"path" : "D:/study/cpp/notebook/Util/Sort/include"
 				}
 			],
 			"language" : "CXX",
@@ -76,17 +76,17 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "Design::@213c845f330fbcb83c87",
+	"id" : "Sort::@a56d8bdd389eaf1ef8c4",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
@@ -96,12 +96,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Design",
-	"nameOnDisk" : "Design.exe",
+	"name" : "Sort",
+	"nameOnDisk" : "Sort.exe",
 	"paths" : 
 	{
-		"build" : "Design",
-		"source" : "Design"
+		"build" : "Sort",
+		"source" : "Sort"
 	},
 	"sourceGroups" : 
 	[
@@ -120,7 +120,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -129,32 +130,37 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Design/core/not.cpp",
+			"path" : "Sort/core/test.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Design/include/Design/Adapter.h",
+			"path" : "Sort/include/Sort/bubbleSort.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Design/include/Design/Builder.h",
+			"path" : "Sort/include/Sort/heapSort.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Design/include/Design/Decorator.h",
+			"path" : "Sort/include/Sort/insertSort.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Design/include/Design/Factory.h",
+			"path" : "Sort/include/Sort/qSort.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Design/include/Design/SingleTon.h",
+			"path" : "Sort/include/Sort/selectSort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sort/include/Sort/shellSort.h",
 			"sourceGroupIndex" : 1
 		}
 	],

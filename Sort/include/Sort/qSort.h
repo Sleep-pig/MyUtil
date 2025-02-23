@@ -17,7 +17,7 @@ void qSort(T a[], int l, int r)
             break;
         std::swap(a[i], a[j]);
     }
-    std::swap(a[l], a[j]); // i j都行 因为i==j
+    std::swap(a[l], a[j]); //交换基准和最后j位置的数（j位置上的数一定小于基准）
     qSort(a, l, i);
     qSort(a, i, r);
 }
