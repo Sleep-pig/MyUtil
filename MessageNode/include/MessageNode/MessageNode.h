@@ -14,7 +14,7 @@ namespace pjie {
 class MessageNode {
 public:
 	MessageNode() = default;
-	MessageNode(size_t size) :totalsize_(size), cursize_(0) {
+	MessageNode(size_t size) :totalsize_(size) {
 		buffer_ = new char[size + 1];
 		buffer_[size] = '\0';
 	}
@@ -40,6 +40,7 @@ class Recv_Node : public MessageNode {
 public:
     Recv_Node(size_t size) : MessageNode(size)
     {
+		cursize_ = 0;
     }
 };
 
@@ -49,6 +50,7 @@ class Send_Node : public MessageNode {
 public:
 
 	Send_Node(const char* data, size_t size) : MessageNode(size) {
+		cursize_ = size;
         memcpy(buffer_, data, size);
 	}
 };
@@ -68,38 +70,6 @@ public:
 	}
 
 	
-	friend std::ostream& operator<<(std::ostream& os, const Logic_Node& node) {
-		std::string typestr;
-		char* buf = nullptr;
-		switch (node.type_)
-		{
-		case pjie::LogicType::RECV_REQUEST:
-			typestr = "RECV_REQUEST";
-			buf = node.node_->Buffer();
-			buf = "recv";
-			break;
-		case pjie::LogicType::SEND_RESPONSE:
-			typestr = "SEND_RESPONSE";
-			buf = node.node_->Buffer();
-			buf = "send secess";
-			break;
-		case pjie::LogicType::SEND_REQUEST:
-			typestr = "SEND_REQUEST";
-			buf = node.node_->Buffer();
-			buf = "send secess";
-			break;
-		case pjie::LogicType::RECV_RESPONSE:
-			typestr = "RECV_RESPONSE";
-			buf = node.node_->Buffer();
-			buf = "recv";
-			break;
-		default:
-			typestr = "UNKNOWN";
-			break;
-		}
-		os << "type: " << typestr << " connect: " << node.connect_ << " node: " << node.node_->Buffer() << std::endl;
-		return os;
-	}
 
 	std::string connect_;
     std::shared_ptr<MessageNode> node_;

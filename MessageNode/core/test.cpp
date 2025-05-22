@@ -8,6 +8,39 @@
 #include <condition_variable>
 
 
+std::ostream& operator<<(std::ostream& os, pjie::Logic_Node& node) {
+	std::string typestr;
+	char* buf = nullptr;
+	switch (node.type_)
+	{
+	case pjie::LogicType::RECV_REQUEST:
+		typestr = "RECV_REQUEST";
+		buf = node.node_->Buffer();
+		strcpy(buf, "recvvvvvv");
+		break;
+	case pjie::LogicType::SEND_RESPONSE:
+		typestr = "SEND_RESPONSE";
+		buf = node.node_->Buffer();
+		strcpy(buf, "seddd");
+		break;
+	case pjie::LogicType::SEND_REQUEST:
+		typestr = "SEND_REQUEST";
+		buf = node.node_->Buffer();
+		strcpy(buf, "sedd_");
+		break;
+	case pjie::LogicType::RECV_RESPONSE:
+		typestr = "RECV_RESPONSE";
+		buf = node.node_->Buffer();
+		strcpy(buf, "recvvvvvv_");
+		break;
+	default:
+		typestr = "UNKNOWN";
+		break;
+	}
+	os << "type: " << typestr << " connect: " << node.connect_ << " node: " << node.node_->Buffer();
+	return os;
+}
+
 
 class LogicSession :public pjie::Singleton<LogicSession> {
 	friend class pjie::Singleton<LogicSession>;
@@ -29,7 +62,7 @@ public:
 			});
 		auto node = que_.front();
 		que_.pop();
-		std::cout<<"ProcessNode: "<<node<<std::endl;
+		std::cout<<"ProcessNode: "<<*(node.get())<<std::endl;
 		cv_.notify_one();
     }
 
