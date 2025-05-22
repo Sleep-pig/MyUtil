@@ -1,2 +1,0 @@
-E:\msys2\mingw64\bin\ar.exe qc libTimeStamp.a CMakeFiles/TimeStamp.dir/core/Timestamp.cpp.obj
-E:\msys2\mingw64\bin\ranlib.exe libTimeStamp.a

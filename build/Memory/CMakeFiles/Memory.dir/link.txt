@@ -1,2 +1,0 @@
-E:\msys2\mingw64\bin\ar.exe qc libMemory.a CMakeFiles/Memory.dir/core/MEmoryManger.cpp.obj
-E:\msys2\mingw64\bin\ranlib.exe libMemory.a

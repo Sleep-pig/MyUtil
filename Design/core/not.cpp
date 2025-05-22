@@ -1,8 +1,6 @@
 #include <Design/Decorator.h>
-int main()
-{
-    example();
-    return 0;
-}
 
+void func() {
+
+}
 

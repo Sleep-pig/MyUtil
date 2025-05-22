@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\text_log.dir/objects.a
-E:\msys2\mingw64\bin\ar.exe qc CMakeFiles\text_log.dir/objects.a @CMakeFiles\text_log.dir\objects1.rsp
-E:\msys2\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\text_log.dir/objects.a -Wl,--no-whole-archive -o text_log.exe -Wl,--out-implib,libtext_log.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\text_log.dir\linkLibs.rsp

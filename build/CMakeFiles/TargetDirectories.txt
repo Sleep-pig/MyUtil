@@ -1,3 +1,0 @@
-D:/study/cpp/notebook/Util/build/CMakeFiles/ALL_BUILD.dir
-D:/study/cpp/notebook/Util/build/CMakeFiles/ZERO_CHECK.dir
-D:/study/cpp/notebook/Util/build/Sort/CMakeFiles/Sort.dir

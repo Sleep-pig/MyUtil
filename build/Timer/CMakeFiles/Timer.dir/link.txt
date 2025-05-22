@@ -1,2 +1,0 @@
-E:\msys2\mingw64\bin\ar.exe qc libTimer.a CMakeFiles/Timer.dir/core/Timer.cpp.obj
-E:\msys2\mingw64\bin\ranlib.exe libTimer.a
