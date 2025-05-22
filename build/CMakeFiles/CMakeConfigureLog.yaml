@@ -1,0 +1,114 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: d:/msys2/usr/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/self/MyUtil/build/CMakeFiles/4.0.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: d:/msys2/usr/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/self/MyUtil/build/CMakeFiles/4.0.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-0wwfuo"
+      binary: "D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-0wwfuo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/msys2/usr/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-0wwfuo'
+        
+        Run Build Command(s): D:/msys2/usr/bin/ninja.exe -v cmTC_dee26
+        [1/2] d:\\msys2\\usr\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_dee26.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_dee26.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_dee26.dir/CMakeCCompilerABI.c.obj -c 'C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c'
+        FAILED: CMakeFiles/cmTC_dee26.dir/CMakeCCompilerABI.c.obj 
+        d:\\msys2\\usr\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_dee26.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_dee26.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_dee26.dir/CMakeCCompilerABI.c.obj -c 'C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCCompilerABI.c'
+        /bin/sh: line 1: d:msys2usrbinclang.exe: command not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: d:/msys2/usr/bin/clang.exe"
+    directories:
+      source: "D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-xf3bay"
+      binary: "D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-xf3bay"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "D:/msys2/usr/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-xf3bay'
+        
+        Run Build Command(s): D:/msys2/usr/bin/ninja.exe -v cmTC_6bcf7
+        [1/2] d:\\msys2\\usr\\bin\\clang.exe    -MD -MT CMakeFiles/cmTC_6bcf7.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_6bcf7.dir\\testCCompiler.c.obj.d -o CMakeFiles/cmTC_6bcf7.dir/testCCompiler.c.obj -c 'D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-xf3bay/testCCompiler.c'
+        FAILED: CMakeFiles/cmTC_6bcf7.dir/testCCompiler.c.obj 
+        d:\\msys2\\usr\\bin\\clang.exe    -MD -MT CMakeFiles/cmTC_6bcf7.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_6bcf7.dir\\testCCompiler.c.obj.d -o CMakeFiles/cmTC_6bcf7.dir/testCCompiler.c.obj -c 'D:/self/MyUtil/build/CMakeFiles/CMakeScratch/TryCompile-xf3bay/testCCompiler.c'
+        /bin/sh: line 1: d:msys2usrbinclang.exe: command not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

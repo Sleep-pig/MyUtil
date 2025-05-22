@@ -1,5 +1,4 @@
 .cache
 .git
 .vs
-build
-out
+.build
