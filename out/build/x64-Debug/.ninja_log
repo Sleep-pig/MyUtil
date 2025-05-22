@@ -1,7 +1,0 @@
-# ninja log v5
-2	29	0	D:/self/MyUtil/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	103a453434c91963
-0	587	7695225354326969	Design/CMakeFiles/Design.dir/core/not.cpp.obj	5700f83384cecb93
-932	1310	7695898839213937	MessageNode/text_MessageNode.exe	fb76a685f4333499
-587	680	7695225355180227	Design/Design.lib	40a9842979e22797
-0	14	0	clean	fa478307b0740d8d
-1	931	7695898836157405	MessageNode/CMakeFiles/text_MessageNode.dir/core/test.cpp.obj	3988e05a606bdabc
